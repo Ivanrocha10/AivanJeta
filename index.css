@@ -1,0 +1,104 @@
+@import url(https://fonts.gogleapis.com/css?family=Lato:300,400,700|pt++Mono);
+
+:root {
+  --first-color: rgb(221, 101, 31);
+  --second-color: Dimgrey;
+  --third-color: gainsboro;
+  --fourth-color: black;
+  --fifth-color: #f7f7f7;
+  --sixth-color: white;
+}
+
+body {
+  background-color: var(--first-color);
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+#conteiner {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: var(--fifth-color);
+  box-shadow: 5px 5px 5px var(--fourth-color);
+  border-radius: 20px;
+}
+
+.title {
+  background: var(--third-color);
+  color: var(--second-color);
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.tipsForm {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.formMoney {
+  background: var(--sixth-color);
+  width: 40px;
+  padding: 5px 5px 8px 8px;
+}
+
+.formService {
+  background: var(--sixth-color);
+  width: 169px;
+  padding: 5px 5px 8px 8px;
+}
+
+.formPeople {
+  background: var(--sixth-color);
+  width: 30px;
+  padding: 5px 5px 8px 8px;
+}
+
+.formMoney:focus {
+  border: 3px solid var(--first-color);
+  outline: none;
+}
+
+.formService:focus {
+  border: 3px solid var(--first-color);
+  outline: none;
+}
+
+.formPeople:focus {
+  border: 3px solid var(--first-color);
+  outline: none;
+}
+
+.formButton {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: var(--first-color);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: var(--sixth-color);
+  border-color: var(--second-color);
+}
+
+#total {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#ivan {
+  text-align: center;
+  height: 100px;
+}
+
+#each {
+  color: red;
+}
