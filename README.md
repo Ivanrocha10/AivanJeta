@@ -6,7 +6,7 @@ AivanJeta, foi criado com o objetivo de fazer transações como um "pix", uma fo
 
 ## Demonstração
 
-![App Screenshot](./assets/capa.jpg)
+![App Screenshot](./assets/AivanJeta.gif)
 
 
 ## 💻 Tech Stack:
