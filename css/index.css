@@ -16,9 +16,9 @@ body {
 }
 
 #conteiner {
-  height: 525px;
+  height: 490px;
   width: 360px;
-  margin: 100px auto;
+  margin: 40px auto;
   background: var(--fifth-color);
   box-shadow: 5px 5px 5px var(--fourth-color);
   border-radius: 20px;
@@ -96,7 +96,6 @@ body {
 
 #ivan {
   text-align: center;
-  height: 100px;
 }
 
 #each {
